@@ -12,13 +12,17 @@
 
 ## Модуль utf8
 
-`use [utf8](https://perldoc.perl.org/utf8);`
+`use utf8;`
+
+См. [utf8](https://perldoc.perl.org/utf8).
 
 Способ сказать перлу, что исходный файл программы имеет формат UTF-8.
 
 ## Feature unicode\_strings
 
-`use feature '[unicode_strings](https://perldoc.perl.org/feature#The-&#x27;unicode_strings&#x27;-feature)';`
+`use feature 'unicode_strings';`
+
+См. [unicode\_strings](https://perldoc.perl.org/feature#The-&#x27;unicode_strings&#x27;-feature)
 
 Это рекомендованная опция для всех операций с юникодом.
 

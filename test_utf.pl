@@ -24,13 +24,17 @@ L<perluniintro|https://perldoc.perl.org/perluniintro>.
 
 =head2 Модуль utf8
 
-C<use L<utf8|https://perldoc.perl.org/utf8>;>
+C<use utf8;>
+
+См. L<utf8|https://perldoc.perl.org/utf8>.
 
 Способ сказать перлу, что исходный файл программы имеет формат UTF-8.
 
 =head2 Feature unicode_strings
 
-C<use feature 'L<unicode_strings|https://perldoc.perl.org/feature#The-'unicode_strings'-feature>';>
+C<use feature 'unicode_strings';>
+
+См. L<unicode_strings|https://perldoc.perl.org/feature#The-'unicode_strings'-feature>
 
 Это рекомендованная опция для всех операций с юникодом.
 
