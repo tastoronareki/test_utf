@@ -36,6 +36,7 @@ C<use feature 'unicode_strings';>
 
 См. L<unicode_strings|https://perldoc.perl.org/feature#The-'unicode_strings'-feature>
 
+
 Это рекомендованная опция для всех операций с юникодом.
 
 =head2 Ввод/вывод
@@ -63,7 +64,7 @@ unless (-e 'test.txt') {
 здесь были!
 TESTDATA
 	close $in
-} 
+}
 open my $in, '<:utf8', 'test.txt';
 open my $out, '>:utf8', 'test2.txt';
 for (<$in>) {
